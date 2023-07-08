@@ -9,13 +9,13 @@ This is a custom Linux shell program that provides a command-line interface for 
 3. Implements various built-in commands
 4. Uses both the concepts of forking and pthread to implement the external commands.
 
-#Internal Commands
+# Internal Commands
 
 1. 'cd' : Change the current working directory
 2. 'echo' : Print arguments to the standard output
 3. 'pwd' : Print the current working directory
 
-#External Commands
+# External Commands
 
 These commands are implemented by separate programs which are called by the main shell when needed.
 
@@ -25,6 +25,6 @@ These commands are implemented by separate programs which are called by the main
 4. 'rm' - Remove a file
 5. 'mkdir' - Create a new directory
 
-#Usage
+# Usage
 
 To use the custom Linux Shell, simply execute the shell program. Then you can enter the commands as you wish.
